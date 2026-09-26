@@ -35,6 +35,7 @@ public partial class MainPage : ContentPage
 
     private void MostrarResultado(int lados, int resultado)
     {
+        //Teste
         if (lados == 6)
         {
             imgDado.Source = $"dado{resultado}.png";
